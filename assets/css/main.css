@@ -189,7 +189,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 992px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -1359,7 +1359,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 992px) {
 
 		.row > * {
 			padding: 20px 0 0 20px;
@@ -1824,7 +1824,7 @@
 	input, textarea, select {
 		font-family: 'Oswald', sans-serif;
 		font-weight: 300;
-		font-size: 18pt;
+		font-size: 17pt;
 		line-height: 1.75em;
 		color: #39454b;
 		letter-spacing: 0.5px;
@@ -2302,6 +2302,7 @@
 				opacity: 1.0;
 				display: inline-block;
 				vertical-align: middle;
+				overflow: hidden;
 			}
 
 			.main.style1.inactive .content {
@@ -3203,15 +3204,15 @@
 		/* Main */
 
 			.main.style2 .content {
-				width: 90%;
+				width: 40%;
 			}
 
 			.main.style2.right .content {
-				left: 10%;
+				left: 60%;
 			}
 
 			.main.style2.inactive.left .content {
-				left: -90%;
+				left: -40%;
 			}
 
 	}
@@ -3241,11 +3242,11 @@
 		/* Main */
 
 			.main.style2 .content {
-				width: 70%;
+				width: 50%;
 			}
 
 			.main.style2.right .content {
-				left: 20%;
+				left: 50%;
 			}
 
 			.main.style2.inactive.left .content {
@@ -3275,7 +3276,7 @@
 			}
 
 			.main.style2.right .content {
-				left: 30%;
+				left: 40%;
 			}
 
 			.main.style2.inactive.left .content {
@@ -3312,7 +3313,7 @@
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 992px) {
 
 		/* Basic */
 
@@ -3339,7 +3340,7 @@
 			}
 
 				.box.style2 {
-					padding: 1.0em 1.0em 1.0em 1.0em;
+					padding: 1.5em 1.25em 1.5em 1.25em;
 					background-color: rgba(255, 255, 255, 0.9);
 				}
 
@@ -3453,3 +3454,7 @@
 			}
 
 	}
+
+.align-left {
+	text-align: left;
+}

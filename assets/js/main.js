@@ -11,7 +11,7 @@
 		normal: '(max-width: 1680px)',
 		narrow: '(max-width: 1280px)',
 		narrower: '(max-width: 1000px)',
-		mobile: '(max-width: 736px)',
+		mobile: '(max-width: 992px)',
 		mobilenarrow: '(max-width: 480px)',
 	});
 
