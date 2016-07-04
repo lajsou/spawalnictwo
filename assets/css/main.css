@@ -2302,6 +2302,7 @@
 				opacity: 1.0;
 				display: inline-block;
 				vertical-align: middle;
+				overflow: hidden;
 			}
 
 			.main.style1.inactive .content {
@@ -3312,7 +3313,7 @@
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 992px) {
 
 		/* Basic */
 
